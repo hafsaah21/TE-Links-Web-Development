@@ -1,0 +1,67 @@
+.pur{
+    background-color: purple;
+}
+.cya{
+    background-color: cyan;
+}
+.rd{
+    background-color: red;
+}
+.pah{
+    background-color: rgb(248, 192, 144);
+}
+.lie{
+    background-color: lightgoldenrodyellow ;
+}
+.llem{
+    background-color: lemonchiffon;
+}
+.libl{
+    background-color: lightblue;
+}
+.vio{
+    background-color: violet;
+}
+.indi{
+    background-color: indigo;
+}
+.pin{
+    background-color: lightpink;
+}
+.sizee{
+    width:20px;
+    height: 20px;
+}
+.element-table {  /* Style for the main table */
+    width: fit-content; /* Adjust width as needed */
+    border-collapse: collapse;
+}
+
+.element-table td { /* Style for all table cells */
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    border-width: 5px;
+    text-align: center;
+}
+
+.alkali-metal {  /* Style for alkali metals */
+    background-color: rgb(206, 68, 63);
+}
+
+.alkaline-earth-metal {  /* Style for alkaline earth metals */
+    background-color: rgb(238, 144, 238);
+}
+
+.lanthanide {  /* Style for lanthanide elements */
+    background-color: rgb(163, 39, 163);
+}
+
+.actinide {  /* Style for actinide elements */
+    background-color: cyan;
+}
+.pd{
+    padding: 2 2 0 2;
+}
+table{
+    margin: auto;
+}

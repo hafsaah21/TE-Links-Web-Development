@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form for a Property Dealer's Website</title>
+    <style>
+        .reqd{
+            font-size: small;
+        }
+    </style>
+    <link rel="stylesheet" href="eform.css">
+</head>
+<body>
+    <form action="">
+        <div class="container">
+            <h1 class="main_heading">Get Us To Know You</h1>
+            <p class="reqd">Required fields are followed by *</p>
+            <h2>Contact Information</h2>
+            <p>Name:*<input type="text" name="name" required></p>
+            <p>Email:*<input type="email" required placeholder="sara123@gmail.com"></p>
+            <p>Password:*<input type="password" placeholder="Enter a strong password"></p>
+            <p>Retype Password:*<input type="password" placeholder="Enter the password again"></p>
+            <fieldset>
+                <legend>Gender</legend>
+                    <p>Male<input type="radio" name="gender">
+                    Female<input type="radio" name="gender">
+                    </p>
+            </fieldset>
+            <p>Address:<textarea name="address" cols="10" rows="5"></textarea></p>
+            
+            <p>Phone Number:*<input type="number" required placeholder="+92 3340909090"></p>
+            <p>Zip Code:<input type="number" required placeholder="750000"></p>
+            <h2>Location Preference</h2>
+            <p>Desired Location:<input type="checkbox" id="Federal b area" name="Federal b area" unchecked />
+                    <label for="scales">Federal b area </label>
+                    <input type="checkbox" id="Gulshan e Iqbal" name="Gulshan e Iqbal" unchecked />
+                    <label for="scales">Gulshan e Iqbal</label>
+                    <input type="checkbox" id="DHA " name="DHA " unchecked />
+                    <label for="scales">DHA </label>
+                    <input type="checkbox" id="Gulistan e jauhar" name="Gulistan e jauhar" unchecked />
+                    <label for="scales">Gulistan e jauhar</label>
+                    <input type="checkbox" id="Scheme 33" name="Scheme 33" unchecked />
+                    <label for="scales">Scheme 33</label>
+                    <input type="checkbox" id="Bahadurabad" name="Bahadurabad" unchecked />
+                    <label for="scales">Bahadurabad</label></label></p>
+            <fieldset>
+                <legend>Intention</legend>
+                    <p>Buy<input type="radio" name="intention">
+                    Sale<input type="radio" name="intention">
+                    Rent<input type="radio" name="intention">
+                    Invest<input type="radio" name="intention">
+                    </p>
+            </fieldset>
+            <h2>Communication Preference</h2>
+            <p>Sms<input type="radio" name="comm">
+            Mail<input type="radio" name="comm">
+            WhatsApp<input type="radio" name="comm"></p>
+            <h2>Profile</h2>
+            <p>Occupation/Industry:<textarea name="occupation" 149.33*15.33></textarea></p>
+            <p>Range:<select>
+                <option>--Choose your range--</option>
+                <option>20000-60000</option>
+                <option>60000-1000009(lakh)</option>
+                <option>500000-1000000(10 lakh)</option>
+                <option>1000000-100000000(crore)</option>
+                <option>10000000-1000000000(10crore)</option>
+            </select></p>
+            <h2>Family Members</h2>
+            <fieldset>
+                <legend>Number of Members</legend>
+                    <p>2<input type="radio" name="family">
+                    3<input type="radio" name="family">
+                    4<input type="radio" name="family">
+                    5<input type="radio" name="family">
+                    6<input type="radio" name="family">
+                    7<input type="radio" name="family"></p>
+            </fieldset>
+            <p>How did you happen to hear of us?
+                <select>
+                    <option>--Choose--</option>
+                    <option>Email</option>
+                    <option>Social Media</option>
+                    <option>Search Engine</option>
+                    <option>Acquaintance</option>
+                </select>
+            </p>
+                <input type="submit" value="Submit">
+              </form>
+              
+        </div>
+    </form>
+</body>
+</html>
